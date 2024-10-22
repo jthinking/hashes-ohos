@@ -13,11 +13,11 @@ ohpm install @jthinking/hashes-ohos
 ## Usage
 
 ```ts
-// import hashes-ohos
+import { util } from '@kit.ArkTS';
 import { md5, blake3, sm3 } from '@jthinking/hashes-ohos';
 
 // convert data to Uint8Array
-const buf = new TextEncoder().encode("Hello, World!");
+const buf = new util.TextEncoder("utf-8").encodeInto("你好，鸿蒙！");
 
 // md5 hex
 const md5Hex = md5(buf)
