@@ -16,8 +16,8 @@ ohpm install @jthinking/hashes-ohos
 // import hashes-ohos
 import { md5, blake3, sm3 } from '@jthinking/hashes-ohos';
 
-// convert data to Buffer
-const buf = Buffer.from('123', 'UTF-8')
+// convert data to Uint8Array
+const buf = new TextEncoder().encode("Hello, World!");
 
 // md5 hex
 const md5Hex = md5(buf)
