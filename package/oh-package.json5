@@ -1,0 +1,10 @@
+{
+  license: "MIT",
+  author: "jiabochao",
+  name: "@jthinking/hashes-ohos",
+  description: "Hashes utils for OpenHarmony",
+  main: "index.ets",
+  version: "0.0.1",
+  types: "libs/index.d.ts",
+  dependencies: {}
+}
